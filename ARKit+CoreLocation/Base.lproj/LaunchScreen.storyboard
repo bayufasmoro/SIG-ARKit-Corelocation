@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bayu Febry Asmoro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sIH-zd-Ane">
+                                <rect key="frame" x="20" y="628" width="335" height="19"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ARKIT + CORE LOCATION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gEs-sm-f64">
+                                <rect key="frame" x="20" y="445.5" width="335" height="21.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.6588235294117647" blue="0.90980392156862744" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AUGMENTED REALITY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XtX-N7-MRK">
+                                <rect key="frame" x="20" y="411.5" width="335" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconARWhite" translatesAutoresizingMaskIntoConstraints="NO" id="mkA-Se-vDD">
+                                <rect key="frame" x="137.5" y="251.5" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Moq-4y-sjY"/>
+                                    <constraint firstAttribute="width" constant="100" id="aG7-fx-XKW"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.090196078430000007" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gEs-sm-f64" firstAttribute="top" secondItem="XtX-N7-MRK" secondAttribute="bottom" constant="10" id="1Z1-8C-Ggt"/>
+                            <constraint firstAttribute="trailing" secondItem="sIH-zd-Ane" secondAttribute="trailing" constant="20" id="6td-kS-kzc"/>
+                            <constraint firstAttribute="trailing" secondItem="gEs-sm-f64" secondAttribute="trailing" constant="20" id="L8e-H2-Ahq"/>
+                            <constraint firstItem="sIH-zd-Ane" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" id="VcX-lp-4Kr"/>
+                            <constraint firstItem="gEs-sm-f64" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" id="aPY-l5-3X9"/>
+                            <constraint firstItem="mkA-Se-vDD" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gx1-ug-3Pu"/>
+                            <constraint firstItem="XtX-N7-MRK" firstAttribute="top" secondItem="mkA-Se-vDD" secondAttribute="bottom" constant="60" id="ljx-Ri-55E"/>
+                            <constraint firstAttribute="trailing" secondItem="XtX-N7-MRK" secondAttribute="trailing" constant="20" id="mpW-5o-2U5"/>
+                            <constraint firstItem="mkA-Se-vDD" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-32" id="o34-Cf-oQd"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="sIH-zd-Ane" secondAttribute="bottom" constant="20" id="qkL-QR-NsV"/>
+                            <constraint firstItem="XtX-N7-MRK" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" id="y4A-D0-RNW"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iconARWhite" width="500" height="501"/>
+    </resources>
+</document>
