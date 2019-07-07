@@ -217,17 +217,32 @@ extension POIViewController {
     func buildDemoData() -> [LocationAnnotationNode] {
         var nodes: [LocationAnnotationNode] = []
 
-        let spaceNeedle = buildNode(latitude: 47.6205, longitude: -122.3493, altitude: 225, imageName: "pin")
-        nodes.append(spaceNeedle)
-
-        let empireStateBuilding = buildNode(latitude: 40.7484, longitude: -73.9857, altitude: 14.3, imageName: "pin")
-        nodes.append(empireStateBuilding)
-
-        let canaryWharf = buildNode(latitude: 51.504607, longitude: -0.019592, altitude: 236, imageName: "pin")
-        nodes.append(canaryWharf)
-
-        let applePark = buildViewNode(latitude: 37.334807, longitude: -122.009076, altitude: 100, text: "Apple Park")
-        nodes.append(applePark)
+//        let spaceNeedle = buildNode(latitude: 47.6205, longitude: -122.3493, altitude: 225, imageName: "pin")
+//        nodes.append(spaceNeedle)
+//
+//        let empireStateBuilding = buildNode(latitude: 40.7484, longitude: -73.9857, altitude: 14.3, imageName: "pin")
+//        nodes.append(empireStateBuilding)
+//
+//        let canaryWharf = buildNode(latitude: 51.504607, longitude: -0.019592, altitude: 236, imageName: "pin")
+//        nodes.append(canaryWharf)
+//
+//        let applePark = buildViewNode(latitude: 37.334807, longitude: -122.009076, altitude: 100, text: "Apple Park")
+//        nodes.append(applePark)
+        
+        let nutrivape = buildViewNode(latitude: -6.8884685, longitude: 107.547353, altitude: 100, text: "Nutrivape")
+        nodes.append(nutrivape)
+        
+        let puskesmas = buildViewNode(latitude: -6.8873484, longitude: 107.5482874, altitude: 100, text: "Puskesmas Cigugur")
+        nodes.append(puskesmas)
+        
+        let widyatama = buildViewNode(latitude: -6.8979418, longitude: 107.6454723, altitude: 100, text: "Universitas Widyatama")
+        nodes.append(widyatama)
+        
+        let tamanKartini = buildViewNode(latitude: -6.8884718, longitude: 107.5367083, altitude: 100, text: "Taman Kartini")
+        nodes.append(tamanKartini)
+        
+        let masjidAbri = buildViewNode(latitude: -6.8865605, longitude: 107.5381326, altitude: 100, text: "Masjid ABRI")
+        nodes.append(masjidAbri)
 
         return nodes
     }
